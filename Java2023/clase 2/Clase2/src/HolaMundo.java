@@ -4,6 +4,7 @@ public class HolaMundo {
         System.out.println("Hola mundo desde java");
 
         int miVariable = 10;
+        
 
         System.out.println(miVariable);
         // Re asignamos la variable
