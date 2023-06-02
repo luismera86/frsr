@@ -30,3 +30,24 @@ miVariable -= 1
 miVariable *= 2
 miVariable /= 2
 miVariable %= 2
+
+# Operadores de comparación
+d = 4
+b = 2
+resultado = b == d
+print(resultado)  # False
+# Operador diferente
+resultado = b != d
+print(resultado)  # True
+
+# Operador mayor que
+resultado = b < d
+print(resultado)  # True
+
+# Operador menor que
+resultado = b > d
+print(resultado)  # False
+
+
+
+
