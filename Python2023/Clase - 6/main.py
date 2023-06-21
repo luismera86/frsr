@@ -21,4 +21,9 @@ elif num == 3:
     numTexto = "Número tres"
 else:
     numTexto = "Has ingresado un valor fuera de rango"
-    print(f"El numero ingresado es : {num} - {numTexto}")
+
+print(f"El numero ingresado es : {num} - {numTexto}")
+
+# sintaxis simplificada con operador ternario
+
+print("La condicion es verdadera") if condicion else print("La condicion es falsa")
