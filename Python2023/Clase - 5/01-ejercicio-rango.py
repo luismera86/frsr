@@ -1,8 +1,14 @@
-#Ejercicio: Ranggo entre 20 y 30
+#Ejercicio: Rango entre 20 y 30
 
 edad = int(input("Ingrese su edad: "))
-if edad >= 20 and edad <= 30:
-    print("Su edad esta en el rango de 20 a 30 años")
+veintes = edad >= 20 and edad < 30
+print(veintes)
+treintas = edad >= 30 and edad < 40
+print(treintas)
+
+if veintes or treintas:
+    print("Estás en tus 20 o 30")
 else:
-    print("Su edad no esta en el rango de 20 a 30 años")
-  
+    print("No estás en tus 20 o 30")
+
+
