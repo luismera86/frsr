@@ -28,7 +28,6 @@ public class Main {
         var varJ = --varI;
         System.out.println("varI = " + varI);
         System.out.println("varJ = " + varJ);
-
         var varK = 30;
         var varL = varK++;
         System.out.println("varK = " + varK);
@@ -52,5 +51,28 @@ public class Main {
         // Operadores relacionales
         var gVar = aNum <= bNum;
         System.out.println("gVar = " + gVar);
+
+        // Operadores condicionales
+
+        // Operador &&
+        var valorA = 7;
+        var valorMinimo = 0;
+        var valorMaximo = 10;
+        var respuesta = valorA >= 0 && valorA <= 10;
+        System.out.println("respuesta = " + respuesta);
+        // Operador ||
+        var vacaciones = false;
+        var diaLibre = false;
+        if (vacaciones || diaLibre)
+            System.out.println("Papá puede asistir al juego de su hijo");
+        else
+            System.out.println("Papá no puede asistir al juego de su hijo");
+        
+        // Operador ternario
+        var resultadoT = (5 > 4) ? "verdadero" : "Falso";
+        System.out.println("resultadoT = " + resultadoT);
+        var numeroT = 7; 
+        resultadoT = (numeroT % 2 == 0) ? "Es par" : "Es impar";
+        System.out.println("resultadoT = " + resultadoT);
     }
 }
