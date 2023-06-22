@@ -74,5 +74,19 @@ public class Main {
         var numeroT = 7; 
         resultadoT = (numeroT % 2 == 0) ? "Es par" : "Es impar";
         System.out.println("resultadoT = " + resultadoT);
+
+        // Prioridad de los operadores (ver la tabala de la clase)
+        var x = 5;
+        var y = 10;
+        var z = ++x + y--; // primero ingrementa el valor de x y y se queda como está
+        System.out.println("z = " + z);
+        
+        var solucionAritmetica = 4 + 5 * 6 / 3; // Primero se resuelve la multiplicación, luego la división luego la suma
+        // 4 + ((5 * 6) / 3) = 4 + (30 / 3) = 4 + 10 = 14
+        System.out.println("solucionAritmetica = " + solucionAritmetica);
+
+        solucionAritmetica = (4 + 5) * 6 / 3; // Primero se resuelve lo que está en los parentesis luego se lee de izquiera da derecha
+
+
     }
 }
