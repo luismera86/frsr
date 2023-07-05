@@ -10,4 +10,4 @@ elif mes_anio > 6 and mes_anio <= 9:
 elif mes_anio > 9 and mes_anio <= 12:
     print("Es primavera")
 elif mes_anio > 1 or mes_anio < 12:
-    print("El numero ingresado debe ser entre 1 y 12")gi
+    print("El numero ingresado debe ser entre 1 y 12")
