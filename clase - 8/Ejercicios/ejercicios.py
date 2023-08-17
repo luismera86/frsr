@@ -14,3 +14,15 @@ for i in range(2,7):
 for i in range(0, 11, 3):
     print(i)
 
+
+# Ejercicio 4
+
+tupla = (13, 1, 8, 3, 2, 5, 8)
+
+lista = []
+
+for i in tupla: 
+    if i < 5:
+        lista.append(i)
+        
+print(lista)
